@@ -1,0 +1,28 @@
+.App {
+}
+
+.text-box {
+  margin: 0 auto;
+  font-size: 4vw;
+  text-align: center;
+}
+textarea {
+  width: 8vw;
+  display: block;
+  resize: none;
+  border: 0px;
+  border-radius: 10px 10px 0 0;
+  height: 6vw;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 8vw;
+  margin: 3vw auto;
+  border: 1px solid #999;
+  border-radius: 10px;
+}

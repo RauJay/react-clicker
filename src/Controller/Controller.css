@@ -1,0 +1,37 @@
+.fas {
+  font-size: -webkit-xxx-large;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 0;
+}
+
+.plus-square:hover {
+  box-shadow: 0 2px 1px rgb(56, 9, 13), 0 -2px 1px rgb(56, 9, 13);
+}
+
+.plus-square {
+  color: rgb(165, 231, 165);
+}
+
+.minus-square {
+  color: rgb(223, 15, 15);
+}
+
+.minus-square:hover {
+  box-shadow: 0 2px 1px rgb(56, 9, 13), 0 -2px 1px rgb(56, 9, 13);
+}
+.async:hover {
+  color: rgb(143, 134, 6);
+}
+
+@media screen and (max-width: 760px) {
+  .fas {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .fas {
+    font-size: 2.8vw;
+  }
+}
